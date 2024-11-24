@@ -30,3 +30,26 @@ To install the required libraries with the specific versions, run the following 
 
 ```bash
 !pip install numpy==1.25.2 pandas==1.5.3 matplotlib==3.7.1 seaborn==0.13.1 -q --user
+
+```
+
+#### Conclusions:
+After examining the dataset provided, the following observations were made:
+
+* Most popular cuisines are American, Japanese and Italian
+* There is nearly three times the number of orders on weekends compared to weekdays.
+* The median food preparation time is 25 minutes.
+* The median food delivery time is also 25 minutes.
+* Delivery times on weekends are typically 6 minutes shorter compared to weekdays.
+* Faster order deliveries tend to receive higher ratings.
+* Orders with higher costs also tend to receive higher ratings.
+* More than one-third of orders are not rated.
+
+
+#### Recommendations:
+* Considering the significant number of orders without ratings, it is advisable to impruve customer feedback requests to gain a better understanding of customer preferences and behavior.
+* Since weekends see a surge in orders, it's smart to focus on boosting orders during those days. This might mean adjusting our advertising efforts to promote popular restaurants and cuisines more heavily on weekends.
+* To speed up weekday deliveries, recommending restaurants that are closer to customers would be beneficial. This would result in faster food delivery and possibly higher ratings.
+* Suggesting the most popular cuisines and restaurants could boost the number of total orders.
+
+
